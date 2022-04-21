@@ -29,7 +29,7 @@ For example:
 ![Example Key Vault](images/secret-kv.png)
 
 ```
-az webapp config appsettings set --name <webapp> --resource-group <resource-group> --settings KEY_FROM_VAULT=”@Microsoft.KeyVault(SecretUri=https://jr-learning-kv.vault.azure.net/secrets/sample-secret/9ce946ab351f48eb8b3bc41574e22813")
+az webapp config appsettings set --name <webapp> --resource-group <resource-group> --settings SampleSecret=”@Microsoft.KeyVault(SecretUri=https://jr-learning-kv.vault.azure.net/secrets/sample-secret/9ce946ab351f48eb8b3bc41574e22813")
 ```
 
 5\. The result Application Settings should look like this:
