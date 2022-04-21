@@ -75,6 +75,13 @@ jobs:
         with:
           name: .net-app
 
+      # - name: Web App Resource
+      #   id: arm-to-webapp
+      #   uses: azure/arm-deploy@v1
+      #   with:
+      #     resourceGroupName: learning
+      #     template: ./azuredeploy.json
+
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
