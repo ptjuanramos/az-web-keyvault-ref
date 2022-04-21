@@ -11,7 +11,7 @@
             "type": "String"
         },
         "sites_kv_learning_ref_name": {
-            "defaultValue": "kv-learning-ref",
+            "defaultValue": "kv-learning-ref-2",
             "type": "String"
         },
         "serverfarms_ASP_Learning_884b_externalid": {
