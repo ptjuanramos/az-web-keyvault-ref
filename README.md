@@ -1,6 +1,6 @@
 # Provision example by using AZ commands
 
-1\.  Enable Managed Identity to WebApp
+1\.  Enable Managed Identity to WebApp(System-Assigned)
 
 ```
 az webapp identity assign --resource-group <resource-group> --name <webapp>
